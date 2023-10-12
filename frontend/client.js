@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8080', { transports: ['websocket', 'polling', 'flashsocket'] });
+const socket = io('https://chatezy-server.vercel.app', { transports: ['websocket', 'polling', 'flashsocket'] });
 
 const form = document.querySelector('#send-form');
 const msg_inp = document.querySelector('#msg-inp');
