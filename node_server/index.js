@@ -1,5 +1,4 @@
 // Node Server which will handle socket io connections
-const serverless = require('serverless-http');
 
 const io = require('socket.io')(8080);
 
